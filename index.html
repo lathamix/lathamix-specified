@@ -1,117 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Lathamix Specified — Music Producer">
-<title>Lathamix Specified | Music Producer</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lathamix Specified — Music Producer, Co-Producer and Mixing Engineer from Ibadan.">
+  <title>Lathamix Specified | Music Producer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
 <header class="site-header">
   <a class="brand" href="#home" aria-label="Lathamix Specified home">
-    <img src="lathamix-logo.jpg" alt="Lathamix Specified logo">
+    <span class="brand-mark">
+      <i></i><i></i><i></i><i></i>
+    </span>
+    <span class="brand-text"><strong>lathamix</strong><small>SPECIFIED</small></span>
   </a>
-  <button class="menu-btn" aria-label="Open navigation">☰</button>
-  <nav class="nav">
+  <nav>
     <a class="active" href="#home">HOME</a>
     <a href="#about">ABOUT</a>
     <a href="#music">MUSIC</a>
+    <a href="#what-i-do">WHAT I DO</a>
     <a href="#class">MUSIC PRODUCTION CLASS</a>
     <a href="#contact">CONTACT</a>
   </nav>
-  <div class="social-top">
-    <a href="https://www.instagram.com/lathamix/" target="_blank" aria-label="Instagram">◎</a>
-    <a href="https://www.youtube.com/@lathamix" target="_blank" aria-label="YouTube">▶</a>
-    <a href="https://www.tiktok.com/@lathamixspecified" target="_blank" aria-label="TikTok">♪</a>
+  <div class="socials">
+    <a href="https://www.instagram.com/lathamix/" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+    <a href="https://www.youtube.com/@lathamix" target="_blank" rel="noopener" aria-label="YouTube">▶</a>
+    <a href="https://www.tiktok.com/@lathamixspecified" target="_blank" rel="noopener" aria-label="TikTok">♪</a>
   </div>
 </header>
 
 <main>
 <section id="home" class="hero">
   <div class="hero-copy">
-    <div class="eyebrow">CREATE <span>•</span> PRODUCE <span>•</span> BRING IDEAS TO LIFE</div>
-    <h1>LATHAMIX<br><strong>SPECIFIED</strong></h1>
+    <p class="eyebrow">CREATE <span>•</span> PRODUCE <span>•</span> BRING IDEAS TO LIFE</p>
+    <h1>LATHAMIX<br><em>SPECIFIED</em></h1>
     <h2>Music Producer</h2>
-    <a class="listen-btn" href="#music"><span class="play">▶</span> LISTEN TO MY MUSIC <b>›</b></a>
+    <a class="primary-btn" href="#music"><span class="play">▶</span> LISTEN TO MY MUSIC <b>›</b></a>
   </div>
-  <div class="hero-image">
-    <img src="lateef-studio-hero.jpg" alt="Lateef Hammed working in his studio">
+  <div class="hero-photo">
+    <img src="studio-hero.jpg" alt="Lathamix Specified working in his music studio">
   </div>
 </section>
 
 <section id="about" class="about section-light">
-  <div class="about-image"><img src="lateef-studio-hero.jpg" alt="Lathamix in the studio"></div>
+  <div class="about-photo"><img src="about-photo.jpg" alt="Lathamix Specified in his studio"></div>
   <div class="about-copy">
-    <div class="label">ABOUT <i></i></div>
-    <h2>I’M LATHAMIX SPECIFIED</h2>
-    <p>I’m Lateef Hammed, known as Lathamix Specified, a music producer born and raised in Ibadan. I’m passionate about sound, creativity and helping artists bring their ideas to life. I produce, co-produce and mix songs with a focus on quality, feel and originality.</p>
+    <p class="section-label">ABOUT <span></span></p>
+    <h2>I'M LATHAMIX SPECIFIED</h2>
+    <p>I'm Lateef Hammed, known as Lathamix Specified, a music producer born and raised in Ibadan. I turned my lifelong love for sound into a career after studying music production at Royal Revolution Music College.</p>
+    <p>I'm passionate about sound, creativity and helping artists bring their ideas to life. I produce, co-produce and mix songs with a focus on quality, feel and originality.</p>
   </div>
 </section>
 
-<section id="music" class="music section-dark">
+<section id="music" class="music-section">
   <div class="music-copy">
-    <div class="label">MUSIC <i></i></div>
+    <p class="section-label">MUSIC <span></span></p>
     <h2>HIT YOU HARD</h2>
     <h3>Teeser × Lynxsiz × Lathamix</h3>
-    <p>Co-producer <span>•</span> Mixing Engineer</p>
-    <a class="outline-btn" href="https://youtu.be/fu4-H5puVU4?si=1xdf100dO3SRxRAE" target="_blank"><span>▶</span> WATCH ON YOUTUBE ↗</a>
+    <p>Co-producer <b>•</b> Mixing Engineer</p>
+    <a class="outline-btn" href="https://youtu.be/fu4-H5puVU4" target="_blank" rel="noopener">▶ &nbsp; WATCH ON YOUTUBE ↗</a>
   </div>
-  <div class="cover"><img src="hit-you-hard-cover.webp" alt="Hit You Hard cover"></div>
+  <div class="cover">
+    <div class="cover-art"><div>HIT YOU<br><strong>HARD</strong></div></div>
+  </div>
   <div class="player">
-    <div class="now">Now Playing</div>
+    <small>NOW PLAYING</small>
     <strong>Hit You Hard</strong>
-    <div class="player-row">
-      <button id="play" class="big-play">▶</button>
-      <div class="track">
-        <div class="bar"><span id="progress"></span></div>
-        <div class="times"><span id="time">0:00</span><span>3:24</span></div>
-      </div>
-    </div>
-    <audio id="audio" preload="metadata"><source src="hit-you-hard.mp3" type="audio/mpeg"></audio>
+    <div class="fake-player"><span>▶</span><div class="bar"><i></i></div></div>
+    <div class="time"><span>0:00</span><span>3:24</span></div>
   </div>
 </section>
 
-<section id="class" class="class-section section-light">
-  <div class="class-icon">🎓</div>
-  <div class="class-copy">
-    <div class="eyebrow blue">LEARN <span>•</span> CREATE <span>•</span> GROW</div>
+<section id="what-i-do" class="services section-light">
+  <div class="services-heading">
+    <p class="section-label">WHAT I DO <span></span></p>
+    <h2>WHAT I DO AS A PRODUCER</h2>
+    <p>I help artists turn ideas, melodies and raw recordings into complete songs that sound focused, musical and ready to share.</p>
+  </div>
+  <div class="service-grid">
+    <article><div class="icon">♪</div><h3>Music Production</h3><p>Creating beats, selecting sounds and building the musical direction of a song from the ground up.</p></article>
+    <article><div class="icon">◉</div><h3>Co-Production</h3><p>Working with artists and producers to develop ideas, improve arrangements and bring records together.</p></article>
+    <article><div class="icon">≋</div><h3>Mixing</h3><p>Balancing vocals, instruments and effects so every important part of the record has space and impact.</p></article>
+    <article><div class="icon">◆</div><h3>Arrangement</h3><p>Shaping intros, verses, hooks, transitions and energy so the song keeps the listener engaged.</p></article>
+  </div>
+</section>
+
+<section id="class" class="class-section">
+  <div class="class-icon">♬</div>
+  <div>
+    <p class="class-eyebrow">LEARN <span>•</span> CREATE <span>•</span> GROW</p>
     <h2>ENROLL FOR MUSIC PRODUCTION CLASS</h2>
     <p>Learn beat making, recording, mixing, arrangement and everything you need to become a confident music producer. Practical. Simple. Professional.</p>
   </div>
-  <a class="enroll" href="https://wa.me/2348153716272?text=Hello%20Lathamix%2C%20I%27m%20interested%20in%20enrolling%20for%20your%20music%20production%20class." target="_blank"><span>◉</span> ENROLL NOW <b>›</b><small>Chat on WhatsApp<br><strong>+234 815 371 6272</strong></small></a>
+  <a class="whatsapp-btn" href="https://wa.me/2348153716272?text=Hello%20Lathamix%20Specified%2C%20I%20want%20to%20enroll%20for%20the%20music%20production%20class." target="_blank" rel="noopener">◉ &nbsp; ENROLL NOW &nbsp; ›</a>
 </section>
 
-<section id="contact" class="contact section-dark">
-  <div class="contact-heading">
-    <div class="label">CONTACT <i></i></div>
-    <h2>LET’S WORK TOGETHER</h2>
+<section id="contact" class="contact">
+  <div class="contact-intro">
+    <p class="section-label">CONTACT <span></span></p>
+    <h2>LET'S WORK TOGETHER</h2>
     <p>For beats, production, mixing or enquiries, feel free to reach out.</p>
   </div>
-  <div class="contact-item"><span>✉</span><b>Email</b><a href="mailto:Lateeflathamix@gmail.com">Lateeflathamix@gmail.com</a></div>
-  <div class="contact-item"><span>◉</span><b>WhatsApp</b><a href="https://wa.me/2348153716272" target="_blank">+234 815 371 6272</a></div>
-  <div class="contact-item"><span>◎</span><b>Instagram</b><a href="https://www.instagram.com/lathamix/" target="_blank">@lathamix</a></div>
-  <div class="contact-item"><span>▶</span><b>YouTube</b><a href="https://www.youtube.com/@lathamix" target="_blank">Lathamix</a></div>
-  <div class="contact-item"><span>♪</span><b>TikTok</b><a href="https://www.tiktok.com/@lathamixspecified" target="_blank">@lathamixspecified</a></div>
+  <div class="contact-links">
+    <a href="mailto:Lateeflathamix@gmail.com"><b>✉</b><small>Email</small><span>Lateeflathamix@gmail.com</span></a>
+    <a href="https://wa.me/2348153716272" target="_blank" rel="noopener"><b>◉</b><small>WhatsApp</small><span>Chat on WhatsApp</span></a>
+    <a href="https://www.instagram.com/lathamix/" target="_blank" rel="noopener"><b>◎</b><small>Instagram</small><span>@lathamix</span></a>
+    <a href="https://www.youtube.com/@lathamix" target="_blank" rel="noopener"><b>▶</b><small>YouTube</small><span>Lathamix Specified</span></a>
+    <a href="https://www.tiktok.com/@lathamixspecified" target="_blank" rel="noopener"><b>♪</b><small>TikTok</small><span>@lathamixspecified</span></a>
+  </div>
 </section>
 </main>
 
 <footer>
   <span>LATHAMIX SPECIFIED &nbsp; © 2026</span>
-  <span class="footer-line"></span>
   <span>GOOD MUSIC LIVES HERE</span>
 </footer>
-
-<script>
-const menu=document.querySelector('.menu-btn'), nav=document.querySelector('.nav');
-menu.addEventListener('click',()=>nav.classList.toggle('open'));
-nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
-
-const audio=document.getElementById('audio'), play=document.getElementById('play'), progress=document.getElementById('progress'), time=document.getElementById('time');
-play.addEventListener('click',()=>{ if(audio.paused){audio.play();play.textContent='❚❚'}else{audio.pause();play.textContent='▶'} });
-audio.addEventListener('timeupdate',()=>{progress.style.width=(audio.duration?audio.currentTime/audio.duration*100:0)+'%'; let s=Math.floor(audio.currentTime),m=Math.floor(s/60);s%=60;time.textContent=m+':'+String(s).padStart(2,'0')});
-audio.addEventListener('ended',()=>{play.textContent='▶';progress.style.width='0%'});
-</script>
 </body>
 </html>
