@@ -1,6 +1,1 @@
-Lathamix Specified — No-Face-Crop Update
-
-This version uses the original supplied photos with gentle enhancement only.
-The images are displayed at their natural proportions so the face and full subject are not cropped away.
-
-Upload all files in this folder to the root of the GitHub Pages repository.
+This version matches the supplied reference screenshot: dark navy/white layout, circular logo, hero studio image, About, Hit You Hard player, Music Production Class, Contact, and footer. Upload/replace the website files in the GitHub Pages repository.
