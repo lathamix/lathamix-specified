@@ -1,1 +1,0 @@
-This version matches the supplied reference screenshot: dark navy/white layout, circular logo, hero studio image, About, Hit You Hard player, Music Production Class, Contact, and footer. Upload/replace the website files in the GitHub Pages repository.
